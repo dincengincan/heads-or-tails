@@ -11,6 +11,7 @@ Use the app online at https://dincengincan.github.io/heads-or-tails-app/
 ## Technologies Used
 * JavaScript
 * [React](https://reactjs.org/)
+* CSS
 
 
 ## Run Project Locally
