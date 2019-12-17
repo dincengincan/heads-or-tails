@@ -20,20 +20,20 @@ class CoinFlipper extends Component {
   
   handleClick = () => {
     let resultCoin = Math.random() < 0.5 ? "heads" : "tails"; 
-  
-    // "At!" butonuna tıkladığımızda paranın dönmesini istiyoruz, bu yüzden "donuyor" durumunu "true" yapıyoruz.
-    
-    // Değerler güncellendikten sonra kullanmak için callback olarak geçtim  
+      
     this.setState({
                   donuyor: true, 
-                  side: resultCoin,}, () => {
-        this.state.result.unshift(this.state.side)
-        console.log(this.state.result)
-    })
+                  side: resultCoin,
+                  
+      })
 
     // 1 saniye kadar dönmesi yeterli, bu yüzden 1 saniye sonra "donuyor" durmunu tekrar "false" yapıyoruz.
-    // 1 saniyeyi değiştirdiğimde animasyon uzayıp kısalmıyor ????
-    setTimeout(() => this.setState({donuyor: false}), 1000);
+    //Animasyon bittikten sonra değerleri yazmak için state.side ı yukarda değil burada güncelledim böylelikle dönüyor:false olduğu anda günceliyor.
+    
+    setTimeout(() => this.setState({
+      donuyor: false,
+      result: [this.state.side].concat(this.state.result)
+    }), 1000);
     
     
   };
@@ -52,7 +52,12 @@ class CoinFlipper extends Component {
         <h1>Heads or Tails</h1>
         <Coin side={this.state.side} donuyor={this.state.donuyor} />
         
-        <button onClick={this.handleClick}>Toss !</button>
+        {
+          !this.state.donuyor
+          ? <button onClick={this.handleClick}>Toss !</button>
+          : <button disabled onClick={this.handleClick}>Toss !</button>
+
+        }
         
         <div>
             <button onClick={this.reset} >Reset !</button>
