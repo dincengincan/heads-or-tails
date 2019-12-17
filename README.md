@@ -1,6 +1,6 @@
 # Heads or Tails React App
-Heads or Tails app built with React.
- 
+Can you flip the same side 3 times in a row?
+
 
 ## Demo
 
