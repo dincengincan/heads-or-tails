@@ -4,9 +4,9 @@ Heads or Tails app built with React.
 
 ## Demo
 
-Use the app online at https://dincengincan.github.io/todo-app-react-redux/
+Use the app online at https://dincengincan.github.io/heads-or-tails-app/
 
-![todo GIF](demo/todo.gif) 
+![headsortails GIF](demo/headsortails.gif) 
 
 ## Technologies Used
 * JavaScript
