@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/heads-or-tails-app/static/css/main.6f842b94.chunk.css",
-    "main.js": "/heads-or-tails-app/static/js/main.a994cbc3.chunk.js",
-    "main.js.map": "/heads-or-tails-app/static/js/main.a994cbc3.chunk.js.map",
+    "main.js": "/heads-or-tails-app/static/js/main.5344e37a.chunk.js",
+    "main.js.map": "/heads-or-tails-app/static/js/main.5344e37a.chunk.js.map",
     "runtime-main.js": "/heads-or-tails-app/static/js/runtime-main.1516c764.js",
     "runtime-main.js.map": "/heads-or-tails-app/static/js/runtime-main.1516c764.js.map",
     "static/js/2.95c61bb0.chunk.js": "/heads-or-tails-app/static/js/2.95c61bb0.chunk.js",
     "static/js/2.95c61bb0.chunk.js.map": "/heads-or-tails-app/static/js/2.95c61bb0.chunk.js.map",
     "index.html": "/heads-or-tails-app/index.html",
-    "precache-manifest.f5122027fe1e5a1f09459b7488cab2ce.js": "/heads-or-tails-app/precache-manifest.f5122027fe1e5a1f09459b7488cab2ce.js",
+    "precache-manifest.72162268811910d2f753fa82482e5505.js": "/heads-or-tails-app/precache-manifest.72162268811910d2f753fa82482e5505.js",
     "service-worker.js": "/heads-or-tails-app/service-worker.js",
     "static/css/main.6f842b94.chunk.css.map": "/heads-or-tails-app/static/css/main.6f842b94.chunk.css.map",
     "static/js/2.95c61bb0.chunk.js.LICENSE": "/heads-or-tails-app/static/js/2.95c61bb0.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.1516c764.js",
     "static/js/2.95c61bb0.chunk.js",
     "static/css/main.6f842b94.chunk.css",
-    "static/js/main.a994cbc3.chunk.js"
+    "static/js/main.5344e37a.chunk.js"
   ]
 }
